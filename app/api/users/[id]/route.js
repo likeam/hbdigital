@@ -31,6 +31,8 @@ export async function POST(req, res) {
   }
 }
 
+// 4- Delete User
+
 export async function DELETE(req, res) {
   const { id } = await res.params;
 
